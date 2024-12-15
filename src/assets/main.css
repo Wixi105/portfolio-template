@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-50: 236 253 245;
+    --primary-100: 209 250 229;
+    --primary-200: 167 243 208;
+    --primary-300: 110 231 183;
+    --primary-400: 52 211 153;
+    --primary-500: 16 185 129;
+    --primary-600: 5 150 105;
+    --primary-700: 4 120 87;
+    --primary-800: 6 95 70;
+    --primary-900: 4 78 56;
+    --primary-950: 2 44 34;
+    --surface-0: 255 255 255;
+    --surface-50: 248 250 252;
+    --surface-100: 241 245 249;
+    --surface-200: 226 232 240;
+    --surface-300: 203 213 225;
+    --surface-400: 148 163 184;
+    --surface-500: 100 116 139;
+    --surface-600: 71 85 105;
+    --surface-700: 45 55 72;
+    --surface-800: 30 41 59;
+    --surface-900: 15 23 42;
+    --surface-950: 3 6 23;
+}
+
+/* Styles for code blocks within Tailwind Typography prose sections */
+.prose pre {
+    @apply bg-gray-800 p-4 rounded overflow-auto;
+}
+
+.prose pre code {
+    @apply text-gray-100 font-mono;
+}
+
+.prose pre code::before,
+.prose pre code::after {
+    content: '';
+}
+
+/* Styles for different token types */
+.prose pre .token.comment,
+.prose pre .token.prolog,
+.prose pre .token.doctype,
+.prose pre .token.cdata {
+    @apply text-gray-400;
+}
+
+.prose pre .token.punctuation {
+    @apply text-gray-200;
+}
+
+.prose pre .token.property,
+.prose pre .token.tag,
+.prose pre .token.boolean,
+.prose pre .token.number,
+.prose pre .token.constant,
+.prose pre .token.symbol,
+.prose pre .token.deleted {
+    @apply text-green-400;
+}
+
+.prose pre .token.selector,
+.prose pre .token.attr-name,
+.prose pre .token.string,
+.prose pre .token.char,
+.prose pre .token.builtin,
+.prose pre .token.inserted {
+    @apply text-purple-300;
+}
+
+.prose pre .token.operator,
+.prose pre .token.entity,
+.prose pre .token.url,
+.prose pre .token.variable {
+    @apply text-yellow-300;
+}
+
+.prose pre .token.atrule,
+.prose pre .token.attr-value,
+.prose pre .token.function,
+.prose pre .token.class-name {
+    @apply text-blue-400;
+}
+
+.prose pre .token.keyword {
+    @apply text-pink-400;
+}
+
+.prose pre .token.regex,
+.prose pre .token.important {
+    @apply text-yellow-400;
+}
