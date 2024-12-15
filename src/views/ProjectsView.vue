@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5 mt-10 max-w-[950px] mx-auto">
+    <div class="px-5 mt-10 max-w-[750px] mx-auto">
         <div class="text-white mt-7">
             <p class="text-2xl md:text-3xl">Projects I've Worked On</p>
         </div>
@@ -48,10 +48,9 @@
 <script setup lang="ts">
 import Dropdown from "primevue/dropdown";
 import ProjectComponent from "@/components/ProjectComponent.vue";
-import NavComponent from "@/components/NavComponent.vue";
 import { computed, ref } from "vue";
 
-const viewProjects = ref(false);
+const viewProjects = ref(true);
 
 let option = ref("All");
 
@@ -60,7 +59,6 @@ const options = ref([
     { name: "Frontend" },
     { name: "Backend" },
     { name: "FullStack" },
-    { name: "Rev. Engineering" },
 ]);
 
 const filteredProjects = computed(() => {
@@ -74,10 +72,10 @@ const filteredProjects = computed(() => {
 });
 const projects = ref([
     {
-        name: "Dashboard",
+        name: "Name",
         description:
-            "this is a dashboard project that I built and it contains some of the most aestethically pleasing components I think any dashboard should have, from charts to wonderful images and data tables. This is peak dash board engineering better than what the Germans could do.",
-        link: "https://wixi-dash.netlify.com",
+            "Lorem ipsum dolor sit amet",
+        link: "https://example.com",
         tools: ["Javascript, ", "Vue"],
         type: "Frontend",
     },

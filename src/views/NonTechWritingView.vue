@@ -38,21 +38,10 @@ export interface PostLink {
 
 const posts: PostLink[] = [
     {
-        title: "Echoes of a Fading Dream",
-        route: "posts/echoes-of-a-fading-dream",
+        title: "Lorem Ipsum Sit Amet",
+        route: "posts/lorem-ipsumy-text",
         description:
-            "presents the satirical, and maybe unrealistic ramblings of a disillusioned dreamer. (July)",
-    },
-    {
-        title: "Have I Been Cowardly",
-        route: "posts/have-i-been-cowardly",
-        description:
-            "presents an instropective judgement of some of my actions and inactions in accordance with my beliefs (September)",
-    },
-    {
-        title: "Moral Consistency",
-        route: "posts/moral-consistency",
-        description: "how consistent are our judgements (November)",
+            "Lorem ipsum dolor sit amet",
     },
 ];
 </script>

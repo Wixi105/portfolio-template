@@ -3,7 +3,7 @@
       class="font-inter text-white md:flex md:justify-between lg:flex lg:items-center lg:justify-between px-5 pt-10 pb-6">
     <div>
       <p class="text-4xl">
-        <RouterLink to="/">Eric Junior</RouterLink>
+        <RouterLink to="/">Lorem Ipsum's Site</RouterLink>
       </p>
       <!-- <p class="pt-3 font-semibold">Software Engineer</p> -->
     </div>
@@ -29,7 +29,7 @@
           >Non-Tech
           </RouterLink>
         </li>
-        <li class="ml-6 hover:underline underline-offset-4"><a href="mailto:ericsampson109+website@gmail.com">Email</a>
+        <li class="ml-6 hover:underline underline-offset-4"><a href="mailto:something+website@domain.com">Email</a>
         </li>
       </ul>
     </div>

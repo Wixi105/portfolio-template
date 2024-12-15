@@ -1,75 +1,46 @@
 <template>
     <div class="text-white">
         <div class="flex justify-around mt-10 mx-auto">
-            <section
-                class="px-5 max-w-[700px] md:w-full md:mt-10 text-sm md:text-base leading-66"
-            >
+            <section class="px-5 max-w-[700px] md:w-full md:mt-10 text-sm md:text-base leading-66">
                 <p>
-                    <img
-                        src="@/assets/images/smartphone-large.jpg"
-                        srcset="
-                            @/assets/images/smartphone-small.jpg  414w,
-                            @/assets/images/smartphone-large.jpg  828w,
-                            @/assets/images/tablet-portrait.jpg   768w,
-                            @/assets/images/tablet-landscape.jpg 1024w,
-                            @/assets/images/desktop-hd.jpg       1280w,
-                            @/assets/images/desktop-full-hd.jpg  1920w
-                        "
-                        sizes="(max-width: 414px) 414px,
-                            (max-width: 768px) 768px,
-                            (max-width: 1024px) 1024px,
-                            (max-width: 1280px) 1280px,
-                            1920px"
-                        alt="Responsive image"
-                        class="lg:rounded-lg w-[50%] float-right ml-2 md:ml-8"
-                    />
+                    <img src="@/assets/images/horse.jpg" alt="Responsive image"
+                        class="lg:rounded-lg w-[50%] float-right ml-2 md:ml-8" />
                 </p>
                 <p class="mb-4">
-                    I love building software, and I love every stage of the
-                    development process.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu nisi nec
+                    augue tincidunt maximus.
                 </p>
                 <p class="mb-4">
-                    Building good software saves time and makes people happy,
-                    thus I strive to build, and conceptualize software that will
-                    achieve just that.
+                    Pellentesque eget lectus tincidunt, pulvinar enim eu, maximus nunc.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
                 </p>
-                <p class="mb-4">I live in Accra, Ghana.</p>
+                <p class="mb-4">Sed do eiusmod tempor incididunt.</p>
                 <p class="mb-4">
-                    My day is mostly spent at
-                    <span
-                        ><a
-                            href="https://deepx.app"
-                            target="_blank"
-                            class="text-green-500 underline underline-offset-4"
-                            >Deep X</a
-                        ></span
-                    >
-                    where I work as a Software Engineer using React/NextJS,
-                    Typescript and related technologies.
+                    Ut labore et dolore magna aliqua at
+                    <span><a href="https://example.com" target="_blank"
+                            class="text-green-500 underline underline-offset-4">Company Name</a></span>
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat et sed magna.
                 </p>
                 <p class="mb-4">
-                    I love writing articles -
+                    Duis aute irure dolor -
                     <span class="text-green-500 underline underline-offset-8">
-                        <RouterLink to="/tech-writing">Technical</RouterLink>
+                        <RouterLink to="/page-one">Lorem</RouterLink>
                     </span>
                     and
                     <span class="text-green-500 underline underline-offset-8">
-                        <RouterLink to="/non-tech">Non-Technical</RouterLink>
+                        <RouterLink to="/page-two">Ipsum</RouterLink>
                     </span>
                 </p>
                 <p class="mb-4">
-                    I work on
+                    Excepteur sint
                     <span>
-                        <a
-                            class="text-green-500 underline underline-offset-4"
-                            href="https://shabbofy.com"
-                        >
-                            Shabbofy
-                        </a> </span
-                    >with my friends
+                        <a class="text-green-500 underline underline-offset-4" href="https://example.org">
+                            Project
+                        </a> </span>occaecat cupidatat non proident
                 </p>
                 <p class="hidden md:block">
-                    In 2023, I discovered I have a terrible fear of heights -->
+                    Sunt in culpa qui officia deserunt mollit anim id est laborum -->
                 </p>
             </section>
         </div>
@@ -81,6 +52,6 @@ import NavComponent from "@/components/NavComponent.vue";
 import { useHead } from "@vueuse/head";
 
 useHead(() => ({
-    title: "Eric Junior | Software Engineer",
+    title: "Lorem Ipsum | Software Developer",
 }));
 </script>

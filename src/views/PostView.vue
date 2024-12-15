@@ -42,7 +42,7 @@ useHead(() => ({
         { property: "og:title", content: frontMatter.value?.title },
         { property: "og:description", content: frontMatter.value?.description },
         { property: "og:image", content: frontMatter.value?.ogImage },
-        { property: "og:url", content: `https://ericjns.com/posts/${slug}` },
+        { property: "og:url", content: `https://something.com/posts/${slug}` },
         { property: "og:type", content: "article" },
     ],
 }));
